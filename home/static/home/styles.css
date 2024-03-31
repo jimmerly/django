@@ -8,7 +8,7 @@ body {
 }
 header {
     background: #f8f8f7;
-    padding: 6px;
+    padding: 0;
     text-align: center;
     /* 新增：创建一个flex容器进行水平和垂直居中 */
     display: flex;
@@ -35,7 +35,7 @@ nav ul li a {
     text-decoration: none;
     color: #333;
     font-size: 12px;
-    line-height: 36px; /* 设置行高等于父元素的高度 */
+    line-height: 36px;
     vertical-align: middle; /* 确保文字在垂直方向上居中 */
 }
 section {
