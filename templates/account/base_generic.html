@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'home/styles.css' %}">
+</head>
+<body class="auth-page">
+    <header>
+        <!-- Header content goes here -->
+    </header>
+
+    <main>
+        {% block content %}
+        <!-- This block will be filled in by child templates -->
+        {% endblock %}
+    </main>
+
+    <footer>
+        <!-- Footer content goes here -->
+    </footer>
+</body>
+</html>

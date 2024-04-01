@@ -1,0 +1,24 @@
+{% extends "account/base_generic.html" %}
+
+{% block content %}
+<div class="content-container">
+    <h2>Sign Up</h2>
+    <form method="post">
+    {% csrf_token %}
+    {% for field in form %}
+      <div class="fieldWrapper">
+        {{ field.label_tag }}
+        {{ field }}
+        {% if field.help_text %}
+          <span class="password-policy">password policy</span>
+          <span class="help">{{ field.help_text|linebreaksbr }}</span>
+        {% endif %}
+        {% for error in field.errors %}
+          <p class="error">{{ error }}</p>
+        {% endfor %}
+      </div>
+    {% endfor %}
+    <button type="submit">Sign Up</button>
+  </form>
+</div>
+{% endblock %}
