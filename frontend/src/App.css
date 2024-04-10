@@ -1,0 +1,120 @@
+header, main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background: #f8f8f7;
+}
+
+/* 导航栏样式 */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e6e6; /* 导航栏背景为灰色 */
+    width: 100%; /* 导航栏宽度100% */
+    height: 60px; /* 导航栏高度60px */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none; /* 移除ul默认的列表样式 */
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 36px; /* 设置li之间的间隔 */
+    height: 100%; /* 设置li的高度 */
+}
+
+nav ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px; /* 设置链接文字大小 */
+    font-weight: 500; /* 设置链接文字粗细 */
+}
+
+.logo {
+    height: 36px; /* Logo的高度 */
+    width: auto; /* 维持原始宽高比 */
+}
+
+/* 悬停在链接上时的样式 */
+nav ul li a:hover {
+    color: #201f1f; /* 鼠标悬停时链接文字颜色变黑 */
+}
+
+
+section {
+    padding: 20px 0; /* 上下留20px的空间 */
+    text-align: center;
+}
+
+#home-highlight {
+    background-image: url('images/home_highlight.png'); /* 替换为实际的图片路径 */
+    background-size: cover;       /* 确保图片覆盖整个区域 */
+    background-position: center;  /* 图片居中显示 */
+    background-repeat: no-repeat; /* 不重复图片 */
+    width: 100%;
+    height: 100vh;
+}
+
+#home-book {
+    background-image: url('images/home_book.png'); /* 替换为实际的图片路径 */
+    background-size: cover;       /* 确保图片覆盖整个区域 */
+    background-position: center;  /* 图片居中显示 */
+    background-repeat: no-repeat; /* 不重复图片 */
+    width: 100%;
+    height: 100vh;
+}
+
+#home-SwingMusic {
+    background-image: url('images/home_SwingMusic.png'); /* 替换为实际的图片路径 */
+    background-size: cover;       /* 确保图片覆盖整个区域 */
+    background-position: center;  /* 图片居中显示 */
+    background-repeat: no-repeat; /* 不重复图片 */
+    width: 100%;
+    height: 100vh;
+}
+
+#home-FurballPictures {
+    background-image: url('images/home_FurballPictures.png'); /* 替换为实际的图片路径 */
+    background-size: cover;       /* 确保图片覆盖整个区域 */
+    background-position: center;  /* 图片居中显示 */
+    background-repeat: no-repeat; /* 不重复图片 */
+    width: 100%;
+    height: 100vh;
+}
+
+#PL-highlight {
+    background-image: url('images/PL_StarBeyonder.png'); /* 替换为实际的图片路径 */
+    background-size: cover;       /* 确保图片覆盖整个区域 */
+    background-position: center;  /* 图片居中显示 */
+    background-repeat: no-repeat; /* 不重复图片 */
+    width: 100%;
+    height: 100vh;
+}
+
+#background-video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; /* 确保视频覆盖整个区域 */
+}
+
+/* 版权声明样式 */
+.copyright {
+    font-size: 0.75rem; /* 小一点的文字大小 */
+    color: #666; /* 暗一点的文字颜色 */
+    text-align: center; /* 居中对齐文本 */
+    padding: 10px 0; /* 上下留点空间 */
+    margin-top: 50px; /* 距离上面的内容留些空间 */
+    width: 100%; /* 确保宽度覆盖整个容器 */
+    box-sizing: border-box; /* 确保padding不影响元素的总宽度 */
+}
+
+

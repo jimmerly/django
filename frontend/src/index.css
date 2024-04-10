@@ -1,0 +1,15 @@
+/* 基础样式重置和全局字体设置 */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f8f7;
+}
+
+a {
+    text-decoration: none;
+    color: #5a5a5a;
+}
