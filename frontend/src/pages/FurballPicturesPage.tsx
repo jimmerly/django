@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../images/Logo_clear.png';
-import FP_highlight from '../videos/future_world.mp4';
+import FP_highlight from '../videos/FP_highlight.mp4';
 const FurballPicturesPage = () => {
     return (
         <div>
